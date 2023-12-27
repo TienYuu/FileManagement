@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycler"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/nofiles_textview"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="336dp"
+        android:text="NO FILES FOUND" />
+</RelativeLayout>
